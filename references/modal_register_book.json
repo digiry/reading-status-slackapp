@@ -1,0 +1,83 @@
+{
+  "type": "modal",
+  "title": {
+    "type": "plain_text",
+    "text": "Reading Status",
+    "emoji": true
+  },
+  "submit": {
+    "type": "plain_text",
+    "text": "제출",
+    "emoji": true
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "취소",
+    "emoji": true
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": ":books: *무슨 책이야*:question:"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "plain_text_input",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "?",
+          "emoji": true
+        }
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "제목은",
+        "emoji": true
+      }
+    },
+    {
+      "type": "input",
+      "hint": {
+        "type": "plain_text",
+        "text": "여러 명이면 쉼표(,)로 구분해줘 ex) 홍길동, 강감찬, Steve Jobs",
+        "emoji": true
+      },
+      "element": {
+        "type": "plain_text_input",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "?",
+          "emoji": true
+        }
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "저자는",
+        "emoji": true
+      }
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "plain_text_input",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "?",
+          "emoji": true
+        }
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "출판사는",
+        "emoji": true
+      }
+    }
+  ]
+}

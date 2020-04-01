@@ -1,0 +1,119 @@
+[
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": ":timer_clock: 책 얼마 정도 읽었어:question:"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "언제"
+    },
+    "accessory": {
+      "type": "datepicker",
+      "initial_date": "2020-02-11",
+      "placeholder": {
+        "type": "plain_text",
+        "text": "Select a date",
+        "emoji": true
+      }
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "어떤 책"
+    },
+    "accessory": {
+      "type": "static_select",
+      "placeholder": {
+        "type": "plain_text",
+        "text": "Select an item",
+        "emoji": true
+      },
+      "initial_option": {
+        "text": {
+          "type": "plain_text",
+          "text": "부의 확장",
+          "emoji": true
+        },
+        "value": "value-1"
+      },
+      "options": [
+        {
+          "text": {
+            "type": "plain_text",
+            "text": "코딩을 지탱하는 기술",
+            "emoji": true
+          },
+          "value": "value-0"
+        },
+        {
+          "text": {
+            "type": "plain_text",
+            "text": "부의 확장",
+            "emoji": true
+          },
+          "value": "value-1"
+        },
+        {
+          "text": {
+            "type": "plain_text",
+            "text": "부자 되는 법을 가르쳐 드립니다",
+            "emoji": true
+          },
+          "value": "value-2"
+        }
+      ]
+    }
+  },
+  {
+    "type": "input",
+    "hint": {
+      "type": "plain_text",
+      "text": "ex) 10 pages",
+      "emoji": true
+    },
+    "element": {
+      "type": "plain_text_input",
+      "placeholder": {
+        "type": "plain_text",
+        "text": "? pages",
+        "emoji": true
+      }
+    },
+    "label": {
+      "type": "plain_text",
+      "text": "얼만큼 읽었어",
+      "emoji": true
+    }
+  },
+  {
+    "type": "input",
+    "hint": {
+      "type": "plain_text",
+      "text": "꼭 안 넣어도 돼. ex) 10 minutes",
+      "emoji": true
+    },
+    "element": {
+      "type": "plain_text_input",
+      "placeholder": {
+        "type": "plain_text",
+        "text": "? minutes",
+        "emoji": true
+      }
+    },
+    "label": {
+      "type": "plain_text",
+      "text": "몇분 동안 읽었어",
+      "emoji": true
+    }
+  }
+]
